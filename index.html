@@ -8,67 +8,55 @@
   </head>
   <body>
     <main>
-      <div class="main-container">
-        <!--image-->
+      <div class="secz">
+        <div class="main-container">
+          <!--image-->
 
-        <div class="image-section">
-          <img src="./Frame 3559.png" height="50" width="90" alt="" />
+          <div class="image-section">
+            <img src="./Frame 3559.png" height="50" width="90" alt="" />
+          </div>
+
+          <!--input-->
+          <div class="container-main">
+            <input required="required" class="inp" />
+            <span class="content">Enter Todo</span>
+          </div>
+
+          <!--button-->
+          <div class="button-section">
+            <button type="button" class="button">
+              <span class="button__text">Add Item</span>
+              <span class="button__icon"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke-linejoin="round"
+                  stroke-linecap="round"
+                  stroke="currentColor"
+                  height="24"
+                  fill="none"
+                  class="svg"
+                >
+                  <line y2="19" y1="5" x2="12" x1="12"></line>
+                  <line y2="12" y1="12" x2="19" x1="5"></line>
+                </svg>
+              </span>
+            </button>
+          </div>
         </div>
 
-        <!--input-->
-        <div class="container-main">
-          <input required="required" class="inp" />
-          <span class="content">Enter Todo</span>
-        </div>
-
-        <!--button-->
-        <div class="button-section">
-          <button type="button" class="button">
-            <span class="button__text">Add Item</span>
-            <span class="button__icon"
-              ><svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke-linejoin="round"
-                stroke-linecap="round"
-                stroke="currentColor"
-                height="24"
-                fill="none"
-                class="svg"
-              >
-                <line y2="19" y1="5" x2="12" x1="12"></line>
-                <line y2="12" y1="12" x2="19" x1="5"></line>
-              </svg>
-            </span>
+        <div class="delete-all">
+          <button class="noselect">
+            <span class="text">Delete All</span><span class="icon"></span>
           </button>
         </div>
+        <!--Preview data-->
+        <div class="container">
+          <div class="boxz"></div>
+        </div>
       </div>
-
-      <div class="delete-all">
-        <button  class="noselect">
-          <span class="text">Delete All</span
-          ><span class="icon"
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z"
-              ></path>
-            </svg>
-          </span>
-        </button>
-      </div>
-      <!--Preview data-->
-      <div class="container">
-        <div class="boxz"></div>
-      </div>
-
-
     </main>
     <script src="script.js"></script>
   </body>

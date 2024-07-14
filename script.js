@@ -13,7 +13,9 @@ document.addEventListener("DOMContentLoaded", () => {
       const task = document.createElement("div");
       task.classList.add("task");
       task.innerHTML = `
+      <div class="span1">
         <span class="span-elementz">${taskText}</span>
+      </div>
         <div class="game"> 
           <div class="checkbox-wrapper">
             <input type="checkbox" class="check" id="${taskId}">
