@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+ocument.addEventListener("DOMContentLoaded", () => {
   let inputValue = document.querySelector(".inp");
   let button = document.querySelector(".button");
   let box = document.querySelector(".boxz");
