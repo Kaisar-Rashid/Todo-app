@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Permanent Marker", cursive;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal
+  font-style: normal;
 }
 main{
   overflow: auto ;
-  background-color: #74EBD5;
-  background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);  
+  background-color: #827f7f;
   height: 100vh;
   width: 100vw;
   padding: 10px;
@@ -26,12 +25,11 @@ main{
 .container-main .inp {
   width: 100%;
   padding: 10px;
-  border: 1.5px solid rgba(0, 167, 161, 0.272);
+  border: none;
   outline: none;
   margin-top: 20px;
-  border-radius: 5px;
-  color: white;
-  background: #21D4FD;
+  color:black;
+  background: white;
   font-size: 1em;
 }
 .container-main .content {
@@ -51,7 +49,7 @@ main{
   transform: translateX(10px) translateY(-7px);
   font-size: 0.9em;
   padding: 0 10px;
-  background:#21D4FD;
+  background:black;
   border-left: 2px solid rgba(0, 167, 161, 0.272);
   border-right: 2px solid rgba(0, 167, 161, 0.272);
 }
@@ -65,11 +63,10 @@ main{
   cursor: pointer;
   display: flex;
   align-items: center;
-  border: 1px solid #21D4FD;
-  background-color: #21D4FD;
-  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
-  border-radius: 10px;
+  border: 1px solid black;
+  background-color: white;
   margin-top: 20px;
+  color: black;
 
 }
 
@@ -79,7 +76,7 @@ main{
 
 .button .button__text {
   transform: translateX(30px);
-  color: #fff;
+  color: black;
   font-weight: 600;
 }
 
@@ -88,7 +85,7 @@ main{
   transform: translateX(109px);
   height: 100%;
   width: 39px;
-  background-color: #21D4FD;
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -100,7 +97,7 @@ main{
 }
 
 .button:hover {
-  background: #21D4FD;
+  background: black;
 }
 
 .button:hover .button__text {
@@ -113,11 +110,11 @@ main{
 }
 
 .button:active .button__icon {
-  background-color: #21D4FD;
+  background-color: #000000;
 }
 
 .button:active {
-  border: 1px solid #21D4FD;
+  border: 1px solid #000000;
 }
 
 
@@ -150,12 +147,12 @@ img{
   letter-spacing: 3px;
 }
 .delete{
-  background-color: red;
-  color: white;
-  border: none;
-  padding: 5px 10px;
-  border-radius: 4px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 6px 12px;
   cursor: pointer;
+
 }
 
 .boxz{
@@ -231,16 +228,17 @@ img{
   cursor: pointer;
   display: flex;
   align-items: center;
-  background: red;
-  border: none;
+  background: white;
+  border: 1px solid black;
   border-radius: 5px;
   box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
-  background: #e62222;
   text-align: center;
+  color: #000000;
  }
 
  .noselect .text {
-   color: white;
+  font-size: 18px;
+   color: black;
    margin-left: 40px;
  }
  
@@ -320,4 +318,17 @@ img{
     max-width: 120px;
   }
  
+}
+
+@media (max-width: 1077px) {
+  .container-main{
+    margin: 0px 15px;
+  }
+
+  .span-elementz {
+    font-size: 15px;
+    max-width: 100px;
+    word-wrap: break-word; 
+    word-break: break-all; 
+  }
 }
